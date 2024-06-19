@@ -88,13 +88,97 @@ main {
 }
 
 .menu-categories {
+    text-align: center;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center; /* Center the buttons horizontally */
-    margin-bottom: 20px;
 }
 
 .category-btn {
     background-color: #fff;
     border: 2px solid #ddd;
     padding: 10px 20px;
-    margin: 0 10px; /* Add space between buttons
+    margin: 0 10px; /* Add space between buttons */
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.category-btn:hover,
+.category-btn.active {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center; /* Center the menu items */
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 30%;
+    margin: 10px; /* Adjust the margin for better spacing */
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    text-align: center;
+}
+.blogs {
+    background: url(images/backGround.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.blogs .blogs-row .box {
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+    flex-wrap: wrap;
+}
+
+.blogs .blogs-row .box .img {
+    flex: 1 1 45rem;
+}
+
+.blogs .blogs-row .box .img img {
+    width: 100%;
+    padding: 5rem;
+}
+
+.blogs .blogs-row .box .content {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.blogs .blogs-row .box .content h3 {
+    font-size: 3.5rem;
+    color: var(--black);
+    text-shadow: var(--box-shadow);
+}
+
+.blogs .blogs-row .box .content p {
+    font-size: 1.6rem;
+    color: var(--black);
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.blogs .blogs-row .box .content a {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.blogs .blogs-row .box .content a:hover {
+    color: var(--black);
+    text-shadow: var(--box-shadow);
+}
