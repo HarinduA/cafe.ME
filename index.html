@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Restaurant Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="buffet">
+            <div class="container">
+                <h2>Buffet</h2>
+                <a href="#" class="order-btn">ORDER NOW</a>
+            </div>
+        </section>
+        
+        <!-- Menu Section -->
+        <section class="menu">
+            <div class="container">
+                <h2>Our Menu</h2>
+                <div class="menu-categories">
+                    <button class="category-btn active" data-category="all">All</button>
+                    <button class="category-btn" data-category="sandwich">Sandwich</button>
+                    <button class="category-btn" data-category="jam">Jam</button>
+                    <button class="category-btn" data-category="shorteats">Shorteats</button>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-item" data-category="sandwich">
+                        <img src="https://via.placeholder.com/300" alt="Sandwich">
+                        <p>Delicious Sandwich</p>
+                    </div>
+                    <div class="menu-item" data-category="jam">
+                        <img src="https://via.placeholder.com/300" alt="Jam">
+                        <p>Fresh Jam</p>
+                    </div>
+                    <div class="menu-item" data-category="shorteats">
+                        <img src="https://via.placeholder.com/300" alt="Shorteats">
+                        <p>Tasty Shorteats</p>
+                    </div>
+                    <div class="menu-item" data-category="sandwich">
+                        <img src="https://via.placeholder.com/300" alt="Sandwich">
+                        <p>Grilled Sandwich</p>
+                    </div>
+                    <div class="menu-item" data-category="jam">
+                        <img src="https://via.placeholder.com/300" alt="Jam">
+                        <p>Homemade Jam</p>
+                    </div>
+                    <div class="menu-item" data-category="shorteats">
+                        <img src="https://via.placeholder.com/300" alt="Shorteats">
+                        <p>Fried Shorteats</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
